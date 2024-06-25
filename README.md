@@ -25,8 +25,3 @@ The project's design and implementation are outlined in the following sections:
 - **ADC Configuration**: The Analog-to-Digital Converter (ADC) captures temperature readings from the internal sensor, and ADC interrupts handle new temperature values.
 - **Temperature and Color Control**: The system compares the current temperature with a reference value to determine temperature changes, and temperature differences trigger changes in LED color. LED color transitions from warm to cool or vice versa based on the temperature trend. The reference temperature is updated with the button.
 - **LED Dimming and Control**: Dimming counters manage LED on/off cycles and intensity, and the variable `led_off_ticks` can take on one of four values (0, 1, 3, or 9) to correspond to different levels of intensity for the LED. These dimming levels are used in generating the 20 distinct hues that correspond to different temperature levels.
-
-## Tests and Results
-The project includes the following test scenarios:
-- **Test 1**: Heat the system using a hair dryer. The results can be viewed in the `test1.mp4` video file.
-- **Test 2**: Cool down the system using an ice cube. The results can be viewed in the `test2.mp4` video file.
