@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-03-08T20:22:16.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TjFNEhJnAvjzUW7GP3kT" version="24.0.2" type="device">
+  <diagram name="Page-1" id="AXtYK3RtHh2Q9k0i1ETe">
+    <mxGraphModel dx="880" dy="426" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1rZpG1Mif3gAOCYNXisy-2" target="1rZpG1Mif3gAOCYNXisy-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Temperature&amp;nbsp; Sample&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="153.75" y="30" width="202.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1rZpG1Mif3gAOCYNXisy-4" target="1rZpG1Mif3gAOCYNXisy-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1rZpG1Mif3gAOCYNXisy-4" target="1rZpG1Mif3gAOCYNXisy-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="280" />
+              <mxPoint x="80" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Is the temperature difference &amp;gt; 0?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="146.25" y="180" width="217.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1rZpG1Mif3gAOCYNXisy-7" target="1rZpG1Mif3gAOCYNXisy-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1rZpG1Mif3gAOCYNXisy-7" target="1rZpG1Mif3gAOCYNXisy-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s the current temperature &amp;gt; reference temperature&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="350" width="283.75" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="395" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1rZpG1Mif3gAOCYNXisy-10" target="1rZpG1Mif3gAOCYNXisy-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-10" value="Change to a warmer color" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="660" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1rZpG1Mif3gAOCYNXisy-12" target="1rZpG1Mif3gAOCYNXisy-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-12" value="Change to a cooler color" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="170" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-16" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2018px%3B%26quot%3B%26gt%3BYes%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22395%22%20y%3D%22250%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2018px%3B%26quot%3B%26gt%3BYes%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22395%22%20y%3D%22250%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="86.25" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="1rZpG1Mif3gAOCYNXisy-18" target="1rZpG1Mif3gAOCYNXisy-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="815" />
+              <mxPoint x="80" y="815" />
+              <mxPoint x="80" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1rZpG1Mif3gAOCYNXisy-18" value="Update temperature reference" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="401.87" y="721" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
